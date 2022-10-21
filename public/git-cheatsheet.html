@@ -10,18 +10,47 @@
         <h1>Git Cheatsheet</h1>
         <hr />
         <section>
-            <h2>Getting started</h2>
+            <h2>Download and install Git</h2>
+            <p>Download Git from <a href="https://git-scm.org">Git website</a></p>. Install it.
+        </section>
+        <section>
+            <h2>Configure Git</h2>
+            <p>
+                Run the following commands to configure Git.
+                <br />
+                @todo Fill in...
+            </p>
+        </section>
+        <section>
+            <h2>Getting started with a project</h2>
             <dl>
                 <dt>git init</dt>
                 <dd>
                     Ask Git to initialize the folder as a Git project
                 </dd>
+
                 <dt>git status</dt>
                 <dd>
                     Shows which files are staged (the files Git has indexed and up-to-date), and which are not staged (the files Git has not indexed up-to-date).
                 </dd>
+                
                 <dt>git add path/to/file</dt>
-                <dd>To add a file to the staging area (Git indexes the file, i.e. makes a note of the file contents</dd>
+                <dd>To add a file to the staging area (Git indexes the file, i.e. makes a note of the file contents. We need to keep running this command every time we make a change to the file.</dd>
+                
+                <dt>git add .</dt>
+                <dd>Stage the files in the current folder and all sub-folders</dd>
+                
+                <dt>git commit -m "commit message as per the work you have done"</dt>
+                <dd>Creates a "commit", a "version" of your project codebase</dd>
+                
+                <dt>git log</dt>
+                <dd>Gives us the commit history</dd>
+
+                <dt>git remote add origin url_of_origin_remote</dt>
+                <dd>To set up the Git repo to push the code to a remote repo. Here origin is NOT a keyword. It is a common name given for the default remote.</dd>
+
+                <dt>git remote -v</dt>
+                <dd>To check the remote repositories tied up to your local repo</dd>
             </dl>
         </section>
     </body>
