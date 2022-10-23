@@ -5,9 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Git Cheatsheet</title>
+        <link rel="stylesheet" href="css/pages/git-cheatsheet.css" > 
     </head>
     <body>
-        <h1>Git Cheatsheet</h1>
+        <div class="heading">
+            <img src="images/git.jpg" alt="git-logo">
+            <h1>Git Cheatsheet</h1>
+        </div>
         <hr />
         <section>
             <h2>Download and install Git</h2>
@@ -23,7 +27,7 @@
         </section>
         <section>
             <h2>Getting started with a project</h2>
-            <dl>
+            <dl class="git-command-table">
                 <dt>git init</dt>
                 <dd>
                     Ask Git to initialize the folder as a Git project
@@ -73,6 +77,7 @@
                     <div>git config --global pull.ff only</div>
                 </dd>
             </dl>
+            <hr>
         </section>
         <section>
             <h2>About merge conflicts and resolving them</h2>

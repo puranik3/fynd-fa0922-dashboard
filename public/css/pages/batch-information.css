@@ -1,0 +1,12 @@
+.batch-table td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+    align-items: center;
+}
+
+.batch-table th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+}

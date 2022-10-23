@@ -1,0 +1,23 @@
+
+.git-command-table dt {
+    font-size: 1.5em;
+    text-decoration: underline;
+    padding: 1em;
+}
+
+.git-command-table {
+    margin-left: 10px;
+}
+
+.git-command-table dd {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.heading  img{
+    display: inline-block;
+}
+
+.heading  h1 {
+    display: inline-block;
+}
